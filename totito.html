@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totito</title>
+    <link rel="stylesheet" href="./totito.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+</head>
+<body>
+    <div class="container bg-info">
+        <div class="row border-bottom bg-dark text-white fs-1 text-center" style="min-height: 200px; min-width: 400px;">
+            <div id="0" class="col-4 border-end accion fil1 color0"></div>
+            <div id="1" class="col-4 border-end accion fil2"></div>
+            <div id="2" class="col-4 border-end accion fil3 fila1 fila2"></div>
+        </div>
+        <div class="row border-bottom bg-dark text-white fs-1 text-center" style="min-height: 200px; min-width: 400px;">
+            <div id="3" class="col-4 border-end accion2 fil1"></div>
+            <div id="4" class="col-4 border-end accion2 fil2 color0 fila2"></div>
+            <div id="5" class="col-4 border-end accion2 fil3 fila1"></div>
+        </div>
+        <div class="row border-bottom bg-dark text-white fs-1 text-center" style="min-height: 200px; min-width: 400px;">
+            <div id="6" class="col-4 border-end accion3 fil1 fila2"></div>
+            <div id="7" class="col-4 border-end accion3 fil2"></div>
+            <div id="8" class="col-4 border-end accion3 fil3 fila1 color0"></div>
+        </div>
+        <div class="text-center m-2">
+            <button class="reiniciar btn btn-danger text-white border border-dark">Reiniciar</button>
+        </div>
+        <div class="input-group m-1">
+            <span class="input-group-text bg-success border1" id="addon-wrapping">Jugador 1</span>
+            <input id="patalla1" readonly>
+          </div>
+          <div class="input-group">
+            <span class="input-group-text bg-info border2" id="addon-wrapping">Jugador 2</span>
+            <input id="patalla2" readonly>
+          </div>
+          <div>
+            <button id="reinicioPartida" class=" bg-secondary m-1 border border-dark">Reiniciar Partida</button>
+          </div>
+
+    </div>
+
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+<script src="./totito.js"></script>
+</body>
+</html>

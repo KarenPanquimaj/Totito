@@ -1,0 +1,39 @@
+.reiniciar{
+    box-shadow:
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.705);
+      border-color: rgb(36, 35, 35);
+}
+
+.border1{
+    box-shadow:
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.705);
+    border-color: rgb(36, 35, 35);
+    border-color: black;
+}
+
+.border2{
+    box-shadow:
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.705);
+    border-color: rgb(36, 35, 35);
+    border-color: black;
+}
+
+
+#pantalla1{
+    box-shadow:
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.705);
+    border-color: rgb(36, 35, 35);
+}
+
+#pantalla2{
+    box-shadow:
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.705);
+    border-color: rgb(36, 35, 35);
+}
+
+#reinicioPartida{
+    box-shadow:
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.705);
+    border-color: rgb(36, 35, 35);
+    border-color: black;
+}

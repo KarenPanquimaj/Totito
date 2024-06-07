@@ -19,61 +19,45 @@ let contador2 = 0;
 
 const validarGanador = () => {
     if ((arreglo[0] != null && arreglo[1] != null)
-    //fila 1
         && (arreglo[0] == arreglo[1])
         && (arreglo[1] == arreglo[2])){
             color()
         verificarGanador()
-        // reiniciar()
     } else if ((arreglo[3] != null && arreglo[4] != null)
-    // fila 2
         && (arreglo[3] == arreglo[4])
         && (arreglo[4] == arreglo[5])) {
             color2()
             verificarGanador()
-            // reiniciar()
     } else if ((arreglo[6] != null && arreglo[7] != null)
-    //fila 3
         && (arreglo[6] == arreglo[7])
         && (arreglo[7] == arreglo[8])) {
             color3()
         verificarGanador()
-        // reiniciar()
     } else if ((arreglo[0] != null && arreglo[3] != null)
-    // fila 1 para abajo
         && (arreglo[0] == arreglo[3])
         && (arreglo[3] == arreglo[6])) {
             color4()
         verificarGanador()
-        // reiniciar()
     } else if ((arreglo[1] != null && arreglo[4] != null)
-    //fila 2 para abajo
         && (arreglo[1] == arreglo[4])
         && (arreglo[4] == arreglo[7])) {
             color6()
         verificarGanador()
-        // reiniciar()
     } else if ((arreglo[2] != null && arreglo[5] != null)
-    //fila 3 para abajo
         && (arreglo[2] == arreglo[5])
         && (arreglo[5] == arreglo[8])) {
             color7()
         verificarGanador()
-        // reiniciar()
     } else if ((arreglo[0] != null && arreglo[4] != null)
-    //fila de lado
         && (arreglo[0] == arreglo[4])
         && (arreglo[4] == arreglo[8])) {
             color8()
         verificarGanador()
-        // reiniciar()
     } else if ((arreglo[2] != null && arreglo[4] != null)
-    //fila 2 del otro lado
         && (arreglo[2] == arreglo[4])
         && (arreglo[4] == arreglo[6])) {
             color9()
         verificarGanador()
-        // reiniciar()
     }
      else {
         filter = arreglo.filter((item) => item == null)
@@ -193,17 +177,3 @@ reinicioPartida.addEventListener('click',() =>{
     patalla1.value = ''
     patalla2.value = ''
 })
-
-
-
-
-
-
-// const reiniciar = () =>{
-//     celdas.forEach((celda) => {
-//         celda.textContent = ''
-//         arreglo = [null, null, null, null, null, null, null, null, null]
-// })
-// }
-
-
